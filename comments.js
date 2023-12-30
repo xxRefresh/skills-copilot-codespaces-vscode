@@ -45,13 +45,3 @@ app.get('/updateComment', function (req, res) {
        res.end( JSON.stringify(data));
    });
 })
-
-//create a server
-var server = app.listen(8081, function () {
-
-    var host = server.address().address
-    var port = server.address().port
-    
-    //console.log("Example app listening at http://%s:%s", host, port)
-    console.log("Server is running at http://const express = require('express');");
-});
